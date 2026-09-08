@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vexlyn Studio | Web Design Agency in Calicut & Kozhikode</title>
+<meta name="description" content="Vexlyn Studio builds modern, conversion-focused websites for dental clinics, healthcare businesses, local businesses, professionals and startups in Calicut, Kozhikode and beyond.">
+<link rel="canonical" href="https://vexlynstudio.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vexlyn Studio | Web Design Agency in Calicut & Kozhikode">
+<meta property="og:description" content="Modern websites. Strategic design. Real business impact. Vexlyn Studio designs and builds websites for dental clinics, healthcare businesses, local businesses, professionals and startups.">
+<meta property="og:url" content="https://vexlynstudio.com/">
+<meta property="og:locale" content="en_IN">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vexlyn Studio | Web Design Agency in Calicut & Kozhikode">
+<meta name="twitter:description" content="Modern, conversion-focused websites for clinics, local businesses, professionals and startups.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Vexlyn Studio",
+  "description": "Web design agency in Calicut, Kerala specializing in websites for dental clinics, eye clinics, healthcare businesses, local businesses, professionals and startups.",
+  "url": "https://vexlynstudio.com/",
+  "telephone": "+919947027811",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Calicut",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "areaServed": ["Calicut", "Kozhikode", "Kerala"],
+  "priceRange": "Contact for pricing"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How much does a website cost?", "acceptedAnswer": {"@type": "Answer", "text": "Pricing depends on the scope, functionality, content and requirements of each project. Get in touch and we'll put together a quote for your specific needs."}},
+    {"@type": "Question", "name": "How long does it take to build a website?", "acceptedAnswer": {"@type": "Answer", "text": "Timelines depend on project scope and how quickly feedback comes back during review. We'll give you a realistic estimate once we understand your requirements."}},
+    {"@type": "Question", "name": "Do you build websites for dental clinics?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Dental clinics are one of Vexlyn Studio's primary target niches, alongside eye clinics and other healthcare businesses."}},
+    {"@type": "Question", "name": "Do you work with businesses outside Calicut?", "acceptedAnswer": {"@type": "Answer", "text": "Vexlyn Studio is based in Calicut and serves clients locally, while also working with businesses beyond Kerala."}},
+    {"@type": "Question", "name": "Can you redesign an existing website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, website redesign is one of our core services for businesses that already have a site but need it to look and perform better."}},
+    {"@type": "Question", "name": "Do you provide SEO?", "acceptedAnswer": {"@type": "Answer", "text": "Websites are built with SEO-friendly foundations, clear content structure and technical best practices. We don't promise specific Google rankings."}},
+    {"@type": "Question", "name": "Do you provide ongoing website support?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, ongoing support and maintenance — including updates, content changes and bug fixes — is available as a service."}},
+    {"@type": "Question", "name": "Do you create social media content?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, social media design and promotional creative design are offered as part of our service range."}},
+    {"@type": "Question", "name": "Do you edit Instagram Reels?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, our video editing service includes short-form content and Instagram Reels."}}
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#07060b;
+    --bg-2:#0c0a14;
+    --surface:rgba(255,255,255,0.035);
+    --surface-strong:rgba(255,255,255,0.06);
+    --border:rgba(255,255,255,0.09);
+    --border-bright:rgba(168,124,255,0.35);
+    --violet:#8b5cf6;
+    --violet-bright:#ac8bff;
+    --magenta:#d946ef;
+    --text:#f4f1fb;
+    --text-muted:#a79cc0;
+    --text-faint:#726a87;
+    --radius:14px;
+    --maxw:1180px;
+    font-size:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4,.disp{
+    font-family:'Space Grotesk',sans-serif;
+    letter-spacing:-0.02em;
+    line-height:1.08;
+    font-weight:600;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  ul{list-style:none;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+  section{position:relative;}
+  ::selection{background:var(--violet);color:#fff;}
+  :focus-visible{outline:2px solid var(--violet-bright);outline-offset:3px;}
+
+  .bg-noise{
+    position:fixed;inset:0;pointer-events:none;z-index:0;opacity:0.4;
+    background-image:radial-gradient(circle at 1px 1px, rgba(255,255,255,0.045) 1px, transparent 0);
+    background-size:26px 26px;
+  }
+  .glow{
+    position:absolute;border-radius:50%;filter:blur(110px);pointer-events:none;z-index:0;
+  }
+
+  /* ---------- NAV ---------- */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(7,6,11,0.6);
+    backdrop-filter:blur(16px) saturate(140%);
+    -webkit-backdrop-filter:blur(16px) saturate(140%);
+    border-bottom:1px solid rgba(255,255,255,0.06);
+  }
+  .nav-inner{
+    max-width:var(--maxw);margin:0 auto;padding:16px 28px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .logo{
+    font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.25rem;
+    display:flex;align-items:center;gap:9px;
+  }
+  .logo-mark{
+    width:22px;height:22px;border-radius:6px;
+    background:linear-gradient(135deg,var(--violet),var(--magenta));
+    flex-shrink:0;
+  }
+  nav.links{display:flex;gap:30px;align-items:center;}
+  nav.links a{
+    font-size:0.92rem;color:var(--text-muted);transition:color .2s;
+  }
+  nav.links a:hover{color:var(--text);}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 22px;border-radius:999px;
+    font-size:0.92rem;font-weight:500;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{
+    background:linear-gradient(135deg,var(--violet) 0%, #7c3aed 100%);
+    color:#fff;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.06) inset, 0 8px 24px -8px rgba(139,92,246,0.6);
+  }
+  .btn-primary:hover{transform:translateY(-1px);box-shadow:0 0 0 1px rgba(255,255,255,0.08) inset, 0 12px 30px -8px rgba(139,92,246,0.8);}
+  .btn-ghost{
+    background:var(--surface);border:1px solid var(--border);color:var(--text);
+  }
+  .btn-ghost:hover{background:var(--surface-strong);border-color:var(--border-bright);}
+  .menu-toggle{display:none;background:none;border:none;color:var(--text);}
+  .menu-toggle svg{width:24px;height:24px;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding:172px 0 100px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero .glow-a{width:520px;height:520px;background:var(--violet);opacity:0.28;top:-180px;right:-120px;}
+  .hero .glow-b{width:420px;height:420px;background:var(--magenta);opacity:0.14;bottom:-160px;left:-140px;}
+  .hero-grid{
+    position:relative;z-index:1;
+    display:grid;grid-template-columns:1.05fr 0.95fr;gap:64px;align-items:center;
+  }
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:0.78rem;letter-spacing:0.14em;color:var(--violet-bright);
+    background:rgba(139,92,246,0.09);border:1px solid rgba(139,92,246,0.25);
+    padding:6px 14px;border-radius:999px;margin-bottom:26px;font-weight:500;
+  }
+  .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--violet-bright);}
+  .hero h1{
+    font-size:clamp(2.4rem, 4.6vw, 3.9rem);
+    margin-bottom:22px;
+  }
+  .hero p.lead{
+    font-size:1.12rem;color:var(--text-muted);max-width:520px;margin-bottom:30px;
+  }
+  .niche-line{
+    font-size:0.94rem;color:var(--text-faint);margin-bottom:34px;
+    border-left:2px solid rgba(139,92,246,0.4);padding-left:14px;
+  }
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:26px;}
+  .trust-line{font-size:0.85rem;color:var(--text-faint);}
+
+  /* hero visual */
+  .panel-stack{position:relative;height:440px;}
+  .float-panel{
+    position:absolute;
+    background:linear-gradient(160deg, rgba(255,255,255,0.055), rgba(255,255,255,0.015));
+    border:1px solid var(--border);
+    border-radius:16px;
+    backdrop-filter:blur(6px);
+    padding:16px 18px;
+    box-shadow:0 20px 45px -20px rgba(0,0,0,0.6);
+    animation:float 7s ease-in-out infinite;
+  }
+  .float-panel .ptitle{font-size:0.72rem;letter-spacing:0.08em;color:var(--violet-bright);margin-bottom:8px;font-weight:600;}
+  .float-panel .pbar{height:6px;border-radius:3px;background:rgba(255,255,255,0.08);margin-bottom:6px;overflow:hidden;}
+  .float-panel .pbar span{display:block;height:100%;background:linear-gradient(90deg,var(--violet),var(--magenta));}
+  .p1{width:230px;top:8px;left:10px;animation-delay:0s;}
+  .p2{width:200px;top:120px;right:0;animation-delay:1.4s;}
+  .p3{width:210px;bottom:100px;left:40px;animation-delay:0.7s;}
+  .p4{width:190px;bottom:0;right:30px;animation-delay:2.1s;}
+  @keyframes float{
+    0%,100%{transform:translateY(0px);}
+    50%{transform:translateY(-14px);}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .float-panel{animation:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ---------- VALUE STRIP ---------- */
+  .strip{
+    border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+    background:var(--bg-2);
+  }
+  .strip-grid{
+    display:grid;grid-template-columns:repeat(5,1fr);
+    padding:34px 0;
+  }
+  .strip-item{
+    padding:0 22px;border-left:1px solid var(--border);
+  }
+  .strip-item:first-child{border-left:none;}
+  .strip-item h4{font-size:0.98rem;margin-bottom:6px;}
+  .strip-item p{font-size:0.85rem;color:var(--text-faint);}
+
+  /* ---------- SECTION shared ---------- */
+  .section{padding:110px 0;}
+  .section-head{max-width:640px;margin-bottom:56px;}
+  .section-head h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:16px;}
+  .section-head p{color:var(--text-muted);font-size:1.02rem;}
+  .tag{
+    display:inline-block;font-size:0.78rem;color:var(--text-faint);
+    margin-bottom:14px;letter-spacing:0.04em;
+  }
+
+  /* comparison */
+  .compare{
+    display:grid;grid-template-columns:1fr 1fr;gap:24px;
+  }
+  .compare .card{
+    border-radius:var(--radius);padding:32px;border:1px solid var(--border);
+  }
+  .compare .basic{background:rgba(255,255,255,0.02);}
+  .compare .pro{
+    background:linear-gradient(160deg, rgba(139,92,246,0.09), rgba(217,70,239,0.03));
+    border-color:var(--border-bright);
+  }
+  .compare h4{font-size:1.05rem;margin-bottom:14px;color:var(--text-muted);}
+  .compare .pro h4{color:var(--violet-bright);}
+  .compare .visual{
+    height:120px;border-radius:10px;margin-top:16px;
+    background:repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 40px, transparent 40px 80px);
+  }
+  .compare .pro .visual{
+    background:linear-gradient(120deg, rgba(139,92,246,0.35), rgba(217,70,239,0.18));
+  }
+
+  /* services */
+  .services-list{display:flex;flex-direction:column;}
+  .service-row{
+    display:grid;grid-template-columns:70px 1fr auto;gap:28px;align-items:start;
+    padding:34px 0;border-top:1px solid var(--border);
+  }
+  .services-list .service-row:last-child{border-bottom:1px solid var(--border);}
+  .service-num{font-family:'Space Grotesk',sans-serif;color:var(--text-faint);font-size:0.95rem;padding-top:4px;}
+  .service-body h3{font-size:1.3rem;margin-bottom:10px;}
+  .service-body ul{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:12px;}
+  .service-body li{
+    font-size:0.82rem;color:var(--text-muted);
+    background:var(--surface);border:1px solid var(--border);
+    padding:5px 12px;border-radius:999px;
+  }
+  .service-body p{color:var(--text-muted);max-width:560px;}
+  .service-cta{align-self:center;font-size:0.9rem;color:var(--violet-bright);white-space:nowrap;padding-top:4px;}
+
+  /* industries */
+  .industry-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+  }
+  .industry-card{
+    border:1px solid var(--border);border-radius:var(--radius);
+    padding:28px;background:var(--surface);
+    transition:border-color .2s, transform .2s;
+  }
+  .industry-card:hover{border-color:var(--border-bright);transform:translateY(-3px);}
+  .industry-icon{font-size:1.6rem;margin-bottom:16px;display:block;}
+  .industry-card h4{font-size:1.08rem;margin-bottom:8px;}
+  .industry-card p{font-size:0.9rem;color:var(--text-muted);}
+
+  /* process timeline */
+  .timeline{position:relative;padding-left:0;}
+  .tl-row{
+    display:grid;grid-template-columns:90px 1fr;gap:26px;
+    padding:26px 0;border-top:1px solid var(--border);
+    position:relative;
+  }
+  .timeline .tl-row:last-child{border-bottom:1px solid var(--border);}
+  .tl-num{
+    font-family:'Space Grotesk',sans-serif;font-weight:600;color:var(--violet-bright);font-size:1.1rem;
+  }
+  .tl-body h4{font-size:1.1rem;margin-bottom:6px;}
+  .tl-body p{color:var(--text-muted);font-size:0.94rem;max-width:520px;}
+
+  /* why grid */
+  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  .why-card{
+    border:1px solid var(--border);border-radius:var(--radius);padding:28px;
+    background:linear-gradient(160deg, rgba(255,255,255,0.03), transparent);
+  }
+  .why-card h4{font-size:1.05rem;margin-bottom:10px;}
+  .why-card p{font-size:0.9rem;color:var(--text-muted);}
+
+  /* before after */
+  .ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+  .ba-col{border:1px solid var(--border);border-radius:var(--radius);padding:30px;}
+  .ba-col.before{background:rgba(255,255,255,0.015);}
+  .ba-col.after{background:linear-gradient(160deg, rgba(139,92,246,0.1), rgba(217,70,239,0.03));border-color:var(--border-bright);}
+  .ba-col h4{font-size:1rem;margin-bottom:18px;color:var(--text-muted);}
+  .ba-col.after h4{color:var(--violet-bright);}
+  .ba-col li{
+    font-size:0.92rem;padding:10px 0;border-top:1px solid rgba(255,255,255,0.06);
+    display:flex;gap:10px;color:var(--text-muted);
+  }
+  .ba-col li:first-of-type{border-top:none;}
+  .ba-col.after li{color:var(--text);}
+
+  /* portfolio */
+  .portfolio-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+  .project-card{
+    border:1px dashed var(--border);border-radius:var(--radius);
+    padding:30px;background:var(--surface);min-height:230px;
+    display:flex;flex-direction:column;justify-content:space-between;
+  }
+  .project-card .ftag{
+    font-size:0.75rem;color:var(--violet-bright);letter-spacing:0.06em;margin-bottom:12px;
+  }
+  .project-card h4{font-size:1.15rem;margin-bottom:10px;}
+  .project-card p{font-size:0.88rem;color:var(--text-faint);}
+  .project-card .meta{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap;}
+  .project-card .meta span{
+    font-size:0.75rem;color:var(--text-faint);border:1px solid var(--border);
+    padding:4px 10px;border-radius:999px;
+  }
+
+  /* results */
+  .results-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;}
+  .result-card{
+    border:1px solid var(--border);border-radius:var(--radius);padding:22px 18px;text-align:left;
+    background:var(--surface);
+  }
+  .result-card h4{font-size:0.98rem;margin-bottom:8px;}
+  .result-card p{font-size:0.82rem;color:var(--text-faint);}
+
+  /* testimonials */
+  .testi-box{
+    border:1px solid var(--border);border-radius:var(--radius);
+    padding:60px 40px;text-align:center;
+    background:linear-gradient(160deg, rgba(139,92,246,0.06), transparent);
+  }
+  .testi-box p{color:var(--text-muted);font-size:1rem;}
+
+  /* lead form */
+  .lead-section{
+    background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  }
+  .lead-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:start;}
+  .lead-grid h2{font-size:clamp(1.8rem,3vw,2.4rem);margin-bottom:16px;}
+  .lead-grid > div:first-child p{color:var(--text-muted);}
+  form.lead-form{
+    display:grid;grid-template-columns:1fr 1fr;gap:16px;
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:var(--radius);padding:30px;
+  }
+  .field{display:flex;flex-direction:column;gap:7px;}
+  .field.full{grid-column:1 / -1;}
+  .field label{font-size:0.82rem;color:var(--text-muted);}
+  .field input, .field select, .field textarea{
+    background:rgba(255,255,255,0.03);border:1px solid var(--border);
+    border-radius:9px;padding:11px 13px;color:var(--text);font-family:inherit;font-size:0.92rem;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{border-color:var(--border-bright);}
+  .field textarea{resize:vertical;min-height:90px;}
+  .checkgroup{display:flex;flex-wrap:wrap;gap:9px;}
+  .checkgroup label{
+    font-size:0.82rem;color:var(--text-muted);border:1px solid var(--border);
+    padding:8px 13px;border-radius:999px;display:flex;align-items:center;gap:7px;cursor:pointer;
+  }
+  form.lead-form .btn{grid-column:1 / -1;justify-self:start;border:none;cursor:pointer;font-family:inherit;}
+  .form-note{grid-column:1/-1;font-size:0.78rem;color:var(--text-faint);}
+
+  /* high conversion CTA */
+  .cta-band{
+    padding:100px 0;text-align:center;position:relative;overflow:hidden;
+  }
+  .cta-band .glow-c{width:600px;height:400px;background:var(--violet);opacity:0.22;top:-100px;left:50%;transform:translateX(-50%);}
+  .cta-band h2{font-size:clamp(1.9rem,3.4vw,2.8rem);margin-bottom:16px;position:relative;z-index:1;}
+  .cta-band p{color:var(--text-muted);max-width:480px;margin:0 auto 32px;position:relative;z-index:1;}
+  .cta-band .hero-ctas{justify-content:center;position:relative;z-index:1;}
+
+  /* faq */
+  .faq-item{border-top:1px solid var(--border);}
+  .faq-list .faq-item:last-child{border-bottom:1px solid var(--border);}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:none;color:var(--text);
+    font-family:'Space Grotesk',sans-serif;font-size:1.02rem;
+    padding:22px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;gap:20px;
+  }
+  .faq-q .plus{color:var(--violet-bright);font-size:1.3rem;transition:transform .2s;flex-shrink:0;}
+  .faq-item.open .plus{transform:rotate(45deg);}
+  .faq-a{
+    max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--text-muted);font-size:0.94rem;
+  }
+  .faq-a p{padding-bottom:22px;max-width:640px;}
+
+  /* footer */
+  footer{padding:70px 0 32px;border-top:1px solid var(--border);background:var(--bg-2);}
+  .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:56px;}
+  .footer-grid h5{font-size:0.85rem;color:var(--text-faint);margin-bottom:16px;letter-spacing:0.04em;}
+  .footer-grid li{font-size:0.9rem;color:var(--text-muted);margin-bottom:10px;}
+  .footer-brand p{color:var(--text-faint);font-size:0.9rem;margin-top:14px;max-width:260px;}
+  .footer-bottom{
+    display:flex;justify-content:space-between;align-items:center;
+    padding-top:26px;border-top:1px solid var(--border);
+    font-size:0.82rem;color:var(--text-faint);flex-wrap:wrap;gap:12px;
+  }
+
+  /* sticky mobile cta */
+  .sticky-cta{
+    display:none;position:fixed;bottom:0;left:0;right:0;z-index:99;
+    padding:14px 16px;background:rgba(7,6,11,0.85);backdrop-filter:blur(14px);
+    border-top:1px solid var(--border);
+  }
+  .sticky-cta a{
+    display:block;text-align:center;padding:13px;border-radius:999px;
+    background:linear-gradient(135deg,var(--violet),#7c3aed);color:#fff;font-weight:500;
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 980px){
+    .strip-grid{grid-template-columns:repeat(2,1fr);}
+    .strip-item{border-left:none;border-top:1px solid var(--border);padding:20px 0;}
+    .strip-item:nth-child(odd){padding-right:20px;}
+    .hero-grid{grid-template-columns:1fr;gap:50px;}
+    .panel-stack{height:320px;}
+    .compare{grid-template-columns:1fr;}
+    .industry-grid{grid-template-columns:repeat(2,1fr);}
+    .why-grid{grid-template-columns:repeat(2,1fr);}
+    .ba-grid{grid-template-columns:1fr;}
+    .portfolio-grid{grid-template-columns:1fr;}
+    .results-grid{grid-template-columns:repeat(2,1fr);}
+    .lead-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+    form.lead-form{grid-template-columns:1fr;}
+  }
+  @media (max-width: 680px){
+    nav.links{display:none;}
+    .menu-toggle{display:block;}
+    header .btn-primary{display:none;}
+    .hero{padding:130px 0 70px;}
+    .service-row{grid-template-columns:1fr;gap:10px;}
+    .service-cta{justify-self:start;}
+    .industry-grid{grid-template-columns:1fr;}
+    .why-grid{grid-template-columns:1fr;}
+    .results-grid{grid-template-columns:1fr 1fr;}
+    .tl-row{grid-template-columns:56px 1fr;}
+    .sticky-cta{display:block;}
+    body{padding-bottom:74px;}
+    .footer-grid{grid-template-columns:1fr;gap:28px;}
+    .footer-bottom{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-noise"></div>
+
+<header>
+  <div class="nav-inner">
+    <a href="#top" class="logo"><span class="logo-mark"></span>Vexlyn Studio</a>
+    <nav class="links">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#process">Our Process</a>
+      <a href="#work">Work</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary">Start a Project →</a>
+    <button class="menu-toggle" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('mobile-open')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">VEXLYN STUDIO</span>
+        <h1>Your business deserves a better digital presence.</h1>
+        <p class="lead">We design and build modern websites that make businesses look professional, build trust, and turn visitors into customers.</p>
+        <p class="niche-line">Websites for Clinics • Local Businesses • Professionals • Startups</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Start Your Project →</a>
+          <a href="#services" class="btn btn-ghost">View Our Services</a>
+        </div>
+        <p class="trust-line">Based in Calicut, Kerala · Serving businesses locally &amp; globally</p>
+      </div>
+      <div class="panel-stack" aria-hidden="true">
+        <div class="float-panel p1">
+          <div class="ptitle">DESIGN</div>
+          <div class="pbar"><span style="width:82%"></span></div>
+          <div class="pbar"><span style="width:60%"></span></div>
+        </div>
+        <div class="float-panel p2">
+          <div class="ptitle">CONVERSION</div>
+          <div class="pbar"><span style="width:70%"></span></div>
+          <div class="pbar"><span style="width:45%"></span></div>
+        </div>
+        <div class="float-panel p3">
+          <div class="ptitle">MOBILE EXPERIENCE</div>
+          <div class="pbar"><span style="width:90%"></span></div>
+          <div class="pbar"><span style="width:75%"></span></div>
+        </div>
+        <div class="float-panel p4">
+          <div class="ptitle">SEO</div>
+          <div class="pbar"><span style="width:65%"></span></div>
+          <div class="pbar"><span style="width:50%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE STRIP -->
+  <section class="strip">
+    <div class="wrap strip-grid">
+      <div class="strip-item"><h4>Modern design</h4><p>Clean, premium interfaces.</p></div>
+      <div class="strip-item"><h4>Strategic approach</h4><p>Every section has a purpose.</p></div>
+      <div class="strip-item"><h4>Mobile-first</h4><p>Designed for phones, tablets and desktops.</p></div>
+      <div class="strip-item"><h4>SEO-ready</h4><p>Built with search visibility in mind.</p></div>
+      <div class="strip-item"><h4>Conversion-focused</h4><p>Designed to turn attention into enquiries.</p></div>
+    </div>
+  </section>
+
+  <!-- WE DON'T JUST BUILD WEBSITES -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>We don't just build websites. We build digital first impressions.</h2>
+        <p>Before someone calls a business, visits a clinic, or sends an enquiry, they often check its online presence first. Vexlyn Studio helps businesses turn that first impression into confidence.</p>
+      </div>
+      <div class="compare">
+        <div class="card basic">
+          <h4>Basic online presence</h4>
+          <div class="visual"></div>
+        </div>
+        <div class="card pro">
+          <h4>Professional digital presence</h4>
+          <div class="visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Everything you need to build a stronger digital presence.</h2>
+        <p>From the website itself to the content and creative that surrounds it, one team handles the whole picture.</p>
+      </div>
+      <div class="services-list">
+
+        <div class="service-row">
+          <div class="service-num">01</div>
+          <div class="service-body">
+            <h3>Web design &amp; development</h3>
+            <p>Modern websites for businesses, dental clinics, eye clinics, healthcare businesses, local businesses, professionals, startups and landing pages.</p>
+            <ul>
+              <li>Responsive design</li><li>Mobile-first layouts</li><li>Fast-loading pages</li>
+              <li>Domain connection</li><li>Conversion-focused sections</li><li>SEO foundations</li><li>Modern UI</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Build My Website →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">02</div>
+          <div class="service-body">
+            <h3>Social media design</h3>
+            <p>Help businesses create a stronger social presence through consistent, on-brand creative.</p>
+            <ul>
+              <li>Instagram posts</li><li>Stories</li><li>Promotional creatives</li><li>Campaign designs</li><li>Profile branding</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Upgrade My Social Presence →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">03</div>
+          <div class="service-body">
+            <h3>Poster &amp; creative design</h3>
+            <p>Design work for events, offers and campaigns, ready for digital or print.</p>
+            <ul>
+              <li>Event posters</li><li>Offer posters</li><li>Business promotions</li><li>Digital advertisements</li><li>Print-ready designs</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Create a Campaign →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">04</div>
+          <div class="service-body">
+            <h3>Video editing</h3>
+            <p>Short-form and promotional video content built for how people actually watch today.</p>
+            <ul>
+              <li>Instagram Reels</li><li>Promotional videos</li><li>Business overview videos</li><li>Short-form content</li><li>Engaging edits</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Create a Video →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">05</div>
+          <div class="service-body">
+            <h3>Brand design</h3>
+            <p>Make your brand recognizable, with an identity that holds together across every touchpoint.</p>
+            <ul>
+              <li>Logo design</li><li>Colour palette</li><li>Typography</li><li>Brand identity kits</li><li>Visual guidelines</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Build My Brand →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">06</div>
+          <div class="service-body">
+            <h3>Photography</h3>
+            <p>Photography support for businesses that need real, current imagery rather than stock photos.</p>
+            <ul>
+              <li>Product photography</li><li>Clinic / interior photography</li><li>Corporate photography</li><li>Event photography</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Ask About Photography →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">07</div>
+          <div class="service-body">
+            <h3>Content &amp; copy support</h3>
+            <p>Helping businesses communicate clearly online, with writing that fits how the site is structured.</p>
+            <ul>
+              <li>Website content</li><li>About-us copy</li><li>Service descriptions</li><li>SEO-friendly writing</li><li>Content structuring</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Get Content Support →</a>
+        </div>
+
+        <div class="service-row">
+          <div class="service-num">08</div>
+          <div class="service-body">
+            <h3>Ongoing support &amp; maintenance</h3>
+            <p>The relationship doesn't end at launch — your site stays current and working.</p>
+            <ul>
+              <li>Website updates</li><li>Content changes</li><li>Bug fixes</li><li>Regular backups</li><li>Priority support</li>
+            </ul>
+          </div>
+          <a href="#contact" class="service-cta">Get Ongoing Support →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALIZATION -->
+  <section class="section" id="industries">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>We understand businesses that depend on trust.</h2>
+        <p>Vexlyn Studio has a particular focus on creating digital experiences for businesses where credibility matters most.</p>
+      </div>
+      <div class="industry-grid">
+        <div class="industry-card"><span class="industry-icon">🦷</span><h4>Dental clinics</h4><p>Professional websites designed to turn visitors into appointment enquiries.</p></div>
+        <div class="industry-card"><span class="industry-icon">👁</span><h4>Eye clinics</h4><p>Clear, trustworthy digital experiences for healthcare providers.</p></div>
+        <div class="industry-card"><span class="industry-icon">🏥</span><h4>Healthcare</h4><p>Modern online experiences that make services easier to understand.</p></div>
+        <div class="industry-card"><span class="industry-icon">🏢</span><h4>Local businesses</h4><p>Websites that help local businesses look established and discoverable.</p></div>
+        <div class="industry-card"><span class="industry-icon">👤</span><h4>Professionals</h4><p>Personal brands and service-based websites designed around credibility.</p></div>
+        <div class="industry-card"><span class="industry-icon">🚀</span><h4>Startups</h4><p>Modern digital foundations for emerging businesses.</p></div>
+      </div>
+      <div style="margin-top:40px;">
+        <a href="#contact" class="btn btn-primary">Build My Business Website →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The Vexlyn process</h2>
+        <p>A simple, structured path from first conversation to launch.</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-row"><div class="tl-num">01</div><div class="tl-body"><h4>Discover</h4><p>We understand your business, audience, goals and requirements.</p></div></div>
+        <div class="tl-row"><div class="tl-num">02</div><div class="tl-body"><h4>Plan</h4><p>We structure the website and map out the user journey.</p></div></div>
+        <div class="tl-row"><div class="tl-num">03</div><div class="tl-body"><h4>Design</h4><p>We create the visual direction and interface.</p></div></div>
+        <div class="tl-row"><div class="tl-num">04</div><div class="tl-body"><h4>Develop</h4><p>We turn the design into a responsive, functional website.</p></div></div>
+        <div class="tl-row"><div class="tl-num">05</div><div class="tl-body"><h4>Review</h4><p>We refine the experience based on feedback.</p></div></div>
+        <div class="tl-row"><div class="tl-num">06</div><div class="tl-body"><h4>Launch</h4><p>Your website goes live and becomes part of your digital presence.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY VEXLYN -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Why businesses choose Vexlyn Studio</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><h4>Modern &amp; professional</h4><p>Clean designs built to create strong first impressions.</p></div>
+        <div class="why-card"><h4>Tailored to your business</h4><p>Every website is structured around the business rather than blindly using a generic layout.</p></div>
+        <div class="why-card"><h4>Mobile-first</h4><p>The experience should work beautifully on the devices customers actually use.</p></div>
+        <div class="why-card"><h4>Conversion-focused</h4><p>Calls-to-action, enquiry forms and user journeys are intentionally designed.</p></div>
+        <div class="why-card"><h4>SEO foundations</h4><p>Websites are structured with search visibility and discoverability in mind.</p></div>
+        <div class="why-card"><h4>Reliable support</h4><p>The relationship doesn't have to end when the website launches.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE / AFTER -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>From "we exist online" to "we look established online."</h2>
+      </div>
+      <div class="ba-grid">
+        <div class="ba-col before">
+          <h4>Before</h4>
+          <ul>
+            <li>Unclear messaging</li>
+            <li>Weak first impression</li>
+            <li>Difficult navigation</li>
+            <li>No obvious CTA</li>
+            <li>Poor mobile experience</li>
+          </ul>
+        </div>
+        <div class="ba-col after">
+          <h4>After</h4>
+          <ul>
+            <li>Clear positioning</li>
+            <li>Professional presentation</li>
+            <li>Easy navigation</li>
+            <li>Strong calls-to-action</li>
+            <li>Mobile-first experience</li>
+            <li>Search-friendly structure</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Built for businesses that want to be taken seriously.</h2>
+        <p>Our project archive is being prepared — each entry below will link out to a real, live project.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="project-card">
+          <div>
+            <div class="ftag">FEATURED PROJECT</div>
+            <h4>Project name — coming soon</h4>
+            <p>Challenge, solution and services provided will appear here once the project is published.</p>
+          </div>
+          <div class="meta"><span>Business category</span><span>Final result</span></div>
+        </div>
+        <div class="project-card">
+          <div>
+            <div class="ftag">FEATURED PROJECT</div>
+            <h4>Project name — coming soon</h4>
+            <p>Challenge, solution and services provided will appear here once the project is published.</p>
+          </div>
+          <div class="meta"><span>Business category</span><span>Final result</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>A website should do more than look good.</h2>
+      </div>
+      <div class="results-grid">
+        <div class="result-card"><h4>Build trust</h4><p>Make visitors feel confident.</p></div>
+        <div class="result-card"><h4>Explain clearly</h4><p>Help people understand what the business offers.</p></div>
+        <div class="result-card"><h4>Generate enquiries</h4><p>Give visitors obvious next steps.</p></div>
+        <div class="result-card"><h4>Improve discoverability</h4><p>Build strong SEO foundations.</p></div>
+        <div class="result-card"><h4>Strengthen brand</h4><p>Create a consistent digital identity.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Don't take our word for it.</h2>
+      </div>
+      <div class="testi-box">
+        <p>Real client experiences coming soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEAD FORM -->
+  <section class="lead-section section" id="contact">
+    <div class="wrap lead-grid">
+      <div>
+        <h2>Have a business that needs a better website?</h2>
+        <p>Tell us a little about your business and what you need. We'll take it from there.</p>
+      </div>
+      <form class="lead-form" onsubmit="handleLeadSubmit(event)">
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" required></div>
+        <div class="field"><label for="f-biz">Business name</label><input id="f-biz" name="business" type="text" required></div>
+        <div class="field"><label for="f-phone">Phone / WhatsApp</label><input id="f-phone" name="phone" type="tel" required></div>
+        <div class="field">
+          <label for="f-type">Business type</label>
+          <select id="f-type" name="businessType">
+            <option>Dental Clinic</option>
+            <option>Eye Clinic</option>
+            <option>Healthcare</option>
+            <option>Local Business</option>
+            <option>Professional</option>
+            <option>Startup</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label>What do you need?</label>
+          <div class="checkgroup">
+            <label><input type="checkbox" name="need" value="Website"> Website</label>
+            <label><input type="checkbox" name="need" value="Website redesign"> Website redesign</label>
+            <label><input type="checkbox" name="need" value="Landing page"> Landing page</label>
+            <label><input type="checkbox" name="need" value="Social media design"> Social media design</label>
+            <label><input type="checkbox" name="need" value="Video editing"> Video editing</label>
+            <label><input type="checkbox" name="need" value="Branding"> Branding</label>
+            <label><input type="checkbox" name="need" value="Multiple services"> Multiple services</label>
+          </div>
+        </div>
+        <div class="field full"><label for="f-details">Tell us about your project</label><textarea id="f-details" name="details"></textarea></div>
+        <button type="submit" class="btn btn-primary">Start My Project →</button>
+        <p class="form-note">We'll get back to you on WhatsApp or by phone — no spam, no mailing lists.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- HIGH CONVERSION CTA -->
+  <section class="cta-band">
+    <div class="glow glow-c"></div>
+    <div class="wrap">
+      <h2>Your next customer is already searching.</h2>
+      <p>Make sure what they find gives them a reason to trust you.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Build My Website →</a>
+        <a href="https://wa.me/919947027811" class="btn btn-ghost">Talk to Vexlyn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How much does a website cost?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Pricing depends on the scope, functionality, content and requirements of each project. Get in touch and we'll put together a quote for your specific needs.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How long does it take to build a website?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Timelines depend on project scope and how quickly feedback comes back during review. We'll give you a realistic estimate once we understand your requirements.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you build websites for dental clinics?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes. Dental clinics are one of Vexlyn Studio's primary target niches, alongside eye clinics and healthcare businesses more broadly.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you work with businesses outside Calicut?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Vexlyn Studio is based in Calicut and Kozhikode, serving clients locally while also working with businesses beyond Kerala.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Can you redesign an existing website?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes — website redesign is one of our core services for businesses that already have a site but need it to look and perform better.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you provide SEO?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Websites are built with SEO-friendly foundations, clear content structure and technical best practices. We don't promise specific Google rankings.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you provide ongoing website support?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes — ongoing support and maintenance, including updates, content changes and bug fixes, is available as a service.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you create social media content?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes, social media design and promotional creative design are offered alongside our website work.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you edit Instagram Reels?<span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes — our video editing service includes short-form content and Instagram Reels.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-band" style="padding-bottom:60px;">
+    <div class="wrap">
+      <h2>Ready to build a better digital presence?</h2>
+      <p>Whether you need your first website, a complete redesign, or a stronger digital identity, let's build something your business can be proud of.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Start Your Project →</a>
+      </div>
+      <p class="trust-line" style="margin-top:24px;">+91 99470 27811 · Calicut, Kerala · Serving locally, working globally</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo"><span class="logo-mark"></span>Vexlyn Studio</a>
+        <p>Digital experiences built for businesses ready to grow.</p>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li>Web Design</li><li>Development</li><li>Branding</li>
+          <li>Social Media Design</li><li>Video Editing</li><li>Content</li><li>Maintenance</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Industries</h5>
+        <ul>
+          <li>Dental</li><li>Eye Care</li><li>Healthcare</li>
+          <li>Local Businesses</li><li>Professionals</li><li>Startups</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+919947027811">+91 99470 27811</a></li>
+          <li>Calicut, Kerala</li>
+          <li><a href="https://wa.me/919947027811" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Vexlyn Studio. All rights reserved.</span>
+      <span>web design agency in Calicut &amp; Kozhikode</span>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <a href="#contact">Start a Project →</a>
+</div>
+
+<script>
+  function toggleFaq(btn){
+    const item = btn.parentElement;
+    const answer = item.querySelector('.faq-a');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el=>{
+      el.classList.remove('open');
+      el.querySelector('.faq-a').style.maxHeight = null;
+    });
+    if(!wasOpen){
+      item.classList.add('open');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  }
+
+  function handleLeadSubmit(e){
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value.trim();
+    const needs = Array.from(form.querySelectorAll('input[name="need"]:checked')).map(i=>i.value).join(', ');
+    const business = form.business.value.trim();
+    const phone = form.phone.value.trim();
+    const type = form.businessType.value;
+    const details = form.details.value.trim();
+
+    const message = `Hi Vexlyn Studio, I'm ${name} from ${business} (${type}). ` +
+      `I need: ${needs || 'not specified'}. ` +
+      (details ? `Details: ${details}. ` : '') +
+      `Reach me on ${phone}.`;
+
+    window.location.href = `https://wa.me/919947027811?text=${encodeURIComponent(message)}`;
+  }
+
+  // simple mobile nav toggle styling injected via class
+  const style = document.createElement('style');
+  style.textContent = `
+    @media (max-width:680px){
+      nav.links.mobile-open{
+        display:flex; flex-direction:column; position:fixed; top:64px; left:0; right:0;
+        background:rgba(7,6,11,0.97); padding:20px 28px; gap:18px; border-bottom:1px solid rgba(255,255,255,0.09);
+      }
+    }
+  `;
+  document.head.appendChild(style);
+</script>
+
+</body>
+</html>
